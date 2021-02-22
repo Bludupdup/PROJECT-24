@@ -15,6 +15,7 @@ class Bin{
   display(){
     push();
     rectMode(CENTER);
+    fill(0);
     rect(0,0,this.width,this.height);
     pop();  
   }  
